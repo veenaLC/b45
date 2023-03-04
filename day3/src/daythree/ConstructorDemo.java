@@ -35,7 +35,7 @@ public class ConstructorDemo {
 		
 		System.out.println("enter customer city: ");
 		city=sc.nextLine();
-		Customer c2=new Customer(name,id,city);
+		Customer c2=new Customer(name,id,city, id);
 		System.out.println(c2);
 		
 		
