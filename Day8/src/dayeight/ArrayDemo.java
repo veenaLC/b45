@@ -9,7 +9,7 @@ public class ArrayDemo {
 //		a[3]=78;
 //		a[4]=89;
 		for(int i=0;i<a.length;i++){
-			System.out.println(i);
+			System.out.println(a[i]);
 		}
 	}
 
