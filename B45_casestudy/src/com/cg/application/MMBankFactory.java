@@ -14,8 +14,8 @@ public class MMBankFactory extends BankFactory{
 
 	@Override
 	public CurrentAcc getNewCurrentAccount(int accNo, String accNm, float accBal, float criditLimit) {
-		
-		return null;
+		MMcurrentAcc mmcurrent=new MMcurrentAcc(accNo, accNm, accBal, criditLimit);
+		return mmcurrent;
 	}
 	
 
