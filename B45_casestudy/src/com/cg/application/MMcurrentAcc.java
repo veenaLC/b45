@@ -9,7 +9,7 @@ public class MMcurrentAcc extends CurrentAcc {
 		
 	}
 	public void withdraw(float criditLimit) {
-		System.out.println("Dear current User, your account balance is: "+getAccBal()+
+		System.out.println("Dear current User, withdraw amount your account : "+getAccBal()+
 				" and cridit limit is " +criditLimit );
 		
 	}

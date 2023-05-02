@@ -14,7 +14,7 @@ public class Client {
 		sa.withdraw(sa.getAccBal());
 		sa.toString();
 		
-		CurrentAcc na=new MMcurrentAcc(52387999,"lakshmi",2000,700000000);
+		CurrentAcc na=new MMcurrentAcc(52387999,"lakshmi",2000,7000);
 		na.withdraw(na.getCriditLimit());
 		na.toString();
 	}

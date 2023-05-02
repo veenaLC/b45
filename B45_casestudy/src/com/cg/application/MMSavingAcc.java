@@ -10,8 +10,8 @@ public class MMSavingAcc extends SavingAcc{
 		super(accNo, accNm, accBal, isSalary);
 		
 	}
-	public void withdraw(float withdraw) {
-		System.out.println("Dear saving account user, your account balance is: "+withdraw);
+	public void withdraw(float accBal) {
+		System.out.println("Dear saving account user, withdrawing your amount : "+accBal);
 		
 	}
 	@Override
